@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+  background-color: #fefae0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reciepe {
+  max-width: 60%;
+  margin: 100px auto;
+  border: 10px solid white;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+}
+.image {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.image > img {
+  width: 100%;
+  border-radius: 20px;
+}
+.title {
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.title h1 {
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Young Serif", serif;
+  font-style: normal;
+}
+.title p {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+}
+.preparation {
+  padding: 5px 5px;
+  margin: 0 auto;
+  max-width: 1200px;
+  border-radius: 10px;
+  background-color: hsl(330, 100%, 98%);
+}
+.preparation h1 {
+  padding: 0 20px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(332, 51%, 32%);
+}
+.preparation ul {
+  padding: 0 50px;
+}
+.span-title {
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(24, 5%, 18%);
+}
+.preparation li {
+  font-family: "Outfit", sans-serif;
+  padding: 5px;
+  color: hsl(30, 10%, 34%);
+}
+.ingredients {
+  padding: 5px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.ingredients h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+.ingredients ul {
+  padding: 0 35px;
+  color: hsl(14, 45%, 36%);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px;
+}
+#ing-list {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+  margin: 10px auto;
+}
+.lines {
+  margin: 30px 0 20px 0;
+  border: 1px solid hsl(30, 17%, 87%);
+}
+.instructions {
+  padding: 5px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.instructions h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin: 0;
+}
+.instructions li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+.instructions li {
+  font-family: "Outfit", sans-serif;
+  padding: 5px;
+  color: hsl(30, 10%, 34%);
+}
+.instructions ol {
+  padding: 0 20px;
+  color: hsl(14, 45%, 36%);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px;
+}
+.nutrition h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+.nutrition p {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+}
+.n-h3 {
+  padding: 10px 20px;
+  margin: 2px 20px;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+}
+.n-unit1 {
+  margin: 0 350px;
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}
+.lines1 {
+  margin: 5px 0 5px 0;
+  border: 1px solid hsl(30, 17%, 87%);
+}
+.n-unit2 {
+  margin: 0 365px;
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}
+.n-unit3 {
+  margin: 0 356px;
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}
+.n-unit4 {
+  margin: 0 383px;
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}
